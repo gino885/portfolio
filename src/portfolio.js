@@ -117,7 +117,7 @@ const skills = {
     },
     {
       title: "blackGLE",
-      fileName: "FullStackImg",
+      fileName: "blackGLEImg",
       skills: [
         "⚡ 利用維基百科的「黑金政治」斷詞作為關鍵字",
         "⚡ 檢索google的20頁網站，利用關鍵字計算網站分數",

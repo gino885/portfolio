@@ -36,6 +36,55 @@
   font-family: "Google Sans Regular";
   line-height: normal;
 }
+.slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 3px solid #ddd; /* 添加邊框 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+  border-radius: 10px; /* 圓角邊框 */
+}
+
+.imgsize {
+  width: 900.75px;
+  height: 600.37px;
+  display: block;
+  border-radius: 10px; /* 圓角邊框 */
+}
+
+.slider-arrow {
+  cursor: pointer;
+  background-color: #f8f8f8; /* 按鈕背景顏色 */
+  border: 2px solid #ddd; /* 按鈕邊框 */
+  border-radius: 50%; /* 圓形按鈕 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 按鈕陰影 */
+  padding: 10px; /* 按鈕內邊距 */
+  font-size: 24px; /* 文字大小 */
+  color: #333; /* 文字顏色 */
+  opacity: 0.7; /* 透明度 */
+  transition: all 0.3s; /* 過渡效果 */
+  width: 40px; /* 按鈕寬度 */
+  height: 40px; /* 按鈕高度 */
+  text-align: center; /* 文字居中 */
+  line-height: 40px; /* 行高以垂直居中文字 */
+  z-index: 100;
+}
+
+.slider-arrow:hover {
+  background-color: #e0e0e0; /* 滑鼠懸停時的背景色 */
+  opacity: 1; /* 滑鼠懸停時的透明度 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 滑鼠懸停時的陰影 */
+}
+
+.left-arrow {
+  position: absolute;
+  left: 10px; /* 左邊距 */
+}
+
+.right-arrow {
+  position: absolute;
+  right: 10px; /* 右邊距 */
+}
 
 /* Media Query */
 @media (max-width: 1380px) {
