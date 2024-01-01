@@ -20,7 +20,7 @@ const seo = {
 const greeting = {
   title: "陳柏駿 Gino",
   logo_name: "Gino",
-  subTitle: "政大資管大三學生，以成為一名軟體工程師努力 ",
+  subTitle: "Hello 你好，我是政大資管大三學生       ，歡迎來到我的作品集網站 ",
 };
 
 const socialMediaLinks = [
@@ -680,7 +680,7 @@ const contactPageData = {
     postalCode: "385520",
     streetAddress: "Ambavadi vas",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://maps.app.goo.gl/WyxHJwxzWbu1Eurr7",
   },
   phoneSection: {
     title: "",
