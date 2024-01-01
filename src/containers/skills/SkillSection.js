@@ -4,17 +4,17 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
-import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 import BlackGLEImg from "./BlackGLEImg";
+import TriCARgleImg from "./TriCARgleImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
   else if (props.fileName === "blackGLEImg")
     return <BlackGLEImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+  else if (props.fileName === "TriCARgleImg")
+    return <TriCARgleImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
 }
 

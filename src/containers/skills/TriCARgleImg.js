@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import "./Skills.css";
 const images = [
-  "https://portdolo.s3.ap-northeast-1.amazonaws.com/blackGLE1.png",
-  "https://portdolo.s3.ap-northeast-1.amazonaws.com/blackGLE2.png",
-  "https://portdolo.s3.ap-northeast-1.amazonaws.com/blackGLE3.png",
+  "https://portdolo.s3.ap-northeast-1.amazonaws.com/Slide+16_9+-+11.png",
+  "https://portdolo.s3.ap-northeast-1.amazonaws.com/Slide+16_9+-+12.png",
+  "https://portdolo.s3.ap-northeast-1.amazonaws.com/Slide+16_9+-+13.png",
+  "https://portdolo.s3.ap-northeast-1.amazonaws.com/Slide+16_9+-+14.png",
+  "https://portdolo.s3.ap-northeast-1.amazonaws.com/Slide+16_9+-+15.png",
+  "https://portdolo.s3.ap-northeast-1.amazonaws.com/Slide+16_9+-+16.png",
 ];
 
-class BlackGLEImg extends Component {
+class TriCARgleImg extends Component {
   constructor(props) {
     super(props);
     this.state = { currentImageIndex: 0 };
@@ -23,7 +26,6 @@ class BlackGLEImg extends Component {
   componentWillUnmount() {
     clearInterval(this.timerID);
   }
-
   prevImage = () => {
     this.setState((prevState) => ({
       currentImageIndex:
@@ -52,4 +54,4 @@ class BlackGLEImg extends Component {
   }
 }
 
-export default BlackGLEImg;
+export default TriCARgleImg;

@@ -200,7 +200,7 @@ const skills = {
     },
     {
       title: "triCARgo",
-      fileName: "CloudInfraImg",
+      fileName: "TriCARgleImg",
       skills: [
         "⚡ 以台北市地下停車場資料模擬路邊停車位",
         "⚡ 導航與顯示停車空位並提供預約車位",

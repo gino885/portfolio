@@ -55,19 +55,21 @@
 .slider-arrow {
   cursor: pointer;
   background-color: #f8f8f8; /* 按鈕背景顏色 */
-  border: 2px solid #ddd; /* 按鈕邊框 */
+  border: none; /* 去除邊框 */
   border-radius: 50%; /* 圓形按鈕 */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 按鈕陰影 */
-  padding: 10px; /* 按鈕內邊距 */
+  width: 40px; /* 按鈕寬度 */
+  height: 40px; /* 按鈕高度 */
+  display: flex; /* 使用 flexbox 進行布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
   font-size: 24px; /* 文字大小 */
+  font-weight: bold; /* 文字加粗 */
   color: #333; /* 文字顏色 */
   opacity: 0.7; /* 透明度 */
   transition: all 0.3s; /* 過渡效果 */
-  width: 40px; /* 按鈕寬度 */
-  height: 40px; /* 按鈕高度 */
-  text-align: center; /* 文字居中 */
-  line-height: 40px; /* 行高以垂直居中文字 */
-  z-index: 100;
+  z-index: 100; /* 確保按鈕在最上層 */
+  font-weight: bold;
 }
 
 .slider-arrow:hover {
