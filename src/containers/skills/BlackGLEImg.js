@@ -13,17 +13,6 @@ class BlackGLEImg extends Component {
     this.nextImage = this.nextImage.bind(this);
   }
 
-  componentDidMount() {
-    this.timerID = setInterval(
-      () => this.nextImage(),
-      5000 // 每 5 秒切換到下一張圖片
-    );
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.timerID);
-  }
-
   prevImage = () => {
     this.setState((prevState) => ({
       currentImageIndex:
