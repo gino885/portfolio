@@ -40,6 +40,11 @@ class SkillSection extends Component {
                 <Fade right duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
+                    {skill.link && (
+                      <a href={skill.link} className="skills-link">
+                        Link
+                      </a>
+                    )}
                   </h1>
                 </Fade>
 

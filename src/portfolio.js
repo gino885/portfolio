@@ -72,6 +72,7 @@ const skills = {
     {
       title: "ElderLadder",
       fileName: "DataScienceImg",
+      link: "https://itseed.elderladder.live/",
       skills: [
         "⚡ 以世界咖啡館形式呈現參加者與長者互動的過程與訣竅",
         "⚡ 利用DALL·E 3模型生成任務卡片，60%用戶用其與長輩互動",

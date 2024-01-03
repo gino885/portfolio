@@ -9,6 +9,13 @@
   font-family: "Google Sans Regular";
   text-align: center;
 }
+.skills-link {
+  font-size: 40px;
+  line-height: normal;
+  font-family: "Google Sans Regular";
+  margin-left: 10px;
+  vertical-align: middle;
+}
 
 .skills-text {
   font-size: 20px;
@@ -27,7 +34,7 @@
 .skills-image-div > * {
   max-width: 100%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .skills-heading {
