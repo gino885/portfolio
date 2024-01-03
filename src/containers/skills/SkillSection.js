@@ -3,14 +3,14 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
+import ElderLadderImg from "./ElderLadderImg";
 import DesignImg from "./DesignImg";
 import BlackGLEImg from "./BlackGLEImg";
 import TriCARgleImg from "./TriCARgleImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
+    return <ElderLadderImg theme={props.theme} />;
   else if (props.fileName === "blackGLEImg")
     return <BlackGLEImg theme={props.theme} />;
   else if (props.fileName === "TriCARgleImg")
