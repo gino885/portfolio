@@ -1,3 +1,11 @@
+.image-caption {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Google Sans Regular";
+  font-weight: bolder;
+  color: #333;
+  margin-top: 6px; /* 在圖片和文字之間添加一些間隔 */
+}
 .skills-main-div {
   display: flex;
   overflow: hidden;
@@ -50,6 +58,9 @@
   border: 3px solid #ddd; /* 添加邊框 */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
   border-radius: 10px; /* 圓角邊框 */
+}
+.image-container {
+  text-align: center; /* 確保圖片和文字都居中 */
 }
 
 .imgsize {
