@@ -81,52 +81,6 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "blackGLE",
-      fileName: "blackGLEImg",
-      skills: [
-        "⚡ 利用維基百科的「黑金政治」斷詞作為關鍵字",
-        "⚡ 檢索google的20頁網站，利用關鍵字計算網站分數",
-        "⚡ 將每個網站作為root，其內部3個子網站作為node",
-        "⚡ 利用遞迴計算個別總分，並依照分數高低排序呈現給用戶",
-      ],
-      softwareSkills: [
-        {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
@@ -138,13 +92,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -163,10 +110,64 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "JAVA",
+          imageSrc: "java.png",
           style: {
-            color: "#339933",
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Springboot",
+          imageSrc: "springboot.png",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "AWS",
+          imageSrc: "aws.png",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+      ],
+    },
+    {
+      title: "blackGLE",
+      fileName: "blackGLEImg",
+      skills: [
+        "⚡ 利用維基百科的「黑金政治」斷詞作為關鍵字",
+        "⚡ 檢索google的20頁網站，利用關鍵字計算網站分數",
+        "⚡ 將每個網站作為root，其內部3個子網站作為node",
+        "⚡ 利用遞迴計算個別總分，並依照分數高低排序呈現給用戶",
+      ],
+      softwareSkills: [
+        {
+          skillName: "JAVA",
+          imageSrc: "java.png",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Springboot",
+          imageSrc: "springboot.png",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Tomcat",
+          imageSrc: "tomcat.png",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Jsp",
+          imageSrc: "jsp.png",
+          style: {
+            color: "#61DAFB",
           },
         },
         {
@@ -174,27 +175,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],
@@ -207,41 +187,41 @@ const skills = {
         "⚡ 導航與顯示停車空位並提供預約車位",
         "⚡ 自動扣款並詳列紀錄扣款資訊",
       ],
-    },
-    {
-      title: "Mall-backend",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ 使用springboot三層式架構實作用戶、訂單、產品功能",
-        "⚡ MySQL 的 CRUD實作",
-      ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
           style: {
-            color: "#FF2BC2",
+            color: "#E34F26",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Tailwind CSS",
+          imageSrc: "TailwindCSS.png",
           style: {
-            color: "#F24E1E",
+            color: "#1572B6",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            color: "#FF7C00",
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Vue",
+          imageSrc: "vue.png",
           style: {
-            color: "#000000",
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "googlemap",
+          imageSrc: "googlemap.png",
+          style: {
+            color: "#663399",
           },
         },
       ],
