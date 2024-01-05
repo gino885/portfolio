@@ -5,10 +5,10 @@ const images = [
   "https://portdolo.s3.ap-northeast-1.amazonaws.com/elderladder2.png",
   "https://portdolo.s3.ap-northeast-1.amazonaws.com/elderladder3.mp4",
 ];
-const captions = [
-  "主頁 - 告知使用者如何使用網站",
-  "學習分享 - 陳列組員與長者互動的方法",
-  "抽卡 - 根據用戶情況，抽出客製化任務卡，簡單開始與長輩的互動",
+const caption = [
+  "主頁 - 告訴用戶該如何使用此網站以達到專案目的",
+  "學員分享 - 以實際行動分享與長者相處的方法",
+  "抽卡 - 以不同用戶的偏好生成客製化任務卡，簡單開始與長輩的交流",
 ];
 
 class ElderLadderImg extends Component {
@@ -43,17 +43,16 @@ class ElderLadderImg extends Component {
   };
 
   render() {
-    const { currentImageIndex } = this.state;
     return (
       <div className="slider-container">
         <button onClick={this.prevImage} className="slider-arrow left-arrow">
           ＜
         </button>
         <div className="image-container">
-          {" "}
-          {/* 新增的容器 */}
-          <img src={images[currentImageIndex]} className="imgsize" />
-          <div className="image-caption">{captions[currentImageIndex]}</div>
+          {this.renderMedia(images[this.state.currentImageIndex])}
+          <div className="media-caption">
+            {caption[this.state.currentImageIndex]}
+          </div>
         </div>
         <button onClick={this.nextImage} className="slider-arrow right-arrow">
           ＞
